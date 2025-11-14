@@ -93,15 +93,25 @@ const Experience = () => {
                           </svg>
                         </motion.div>
                         <div className="flex-1">
-                          <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition-colors">
+                          <h3 className="text-xl font-bold text-gray-800 mb-2 group-hover:text-primary transition-colors text-center">
                             {exp.title}
                           </h3>
-                          <p className="text-gray-600 leading-relaxed">
+                          <p className="text-gray-600 font-medium mb-2 text-center">
                             {exp.organization}
-                            {exp.note && (
-                              <span className="block mt-1 text-gray-500 text-sm">— {exp.note}</span>
-                            )}
                           </p>
+                          {exp.details && exp.details.length > 0 && (
+                              <ul className="mt-3 text-gray-700 text-sm space-y-3 max-w-xl mx-auto">
+                                {exp.details.map((detail, idx) => (
+                                  <li key={idx} className="flex items-center justify-center gap-3">
+                                    <span className="text-primary font-bold">•</span>
+                                    <span className="text-center">{detail}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                          )}
+                          {exp.note && (
+                              <p className="mt-3 text-gray-700 text-sm max-w-xl mx-auto text-center">— {exp.note}</p>
+                          )}
                         </div>
                       </div>
                     </div>

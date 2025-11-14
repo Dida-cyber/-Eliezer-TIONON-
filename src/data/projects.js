@@ -4,8 +4,7 @@ export const projects = [
     title: "AI Weapon Detection for Surveillance",
     objective: "Detect pistols and knives in real-time from CCTV footage.",
     tech: "Python, OpenCV, TensorFlow, YOLO-style object detection",
-    status: "Prototype — demo presented at the Maison de l'IA (Burkina Faso).",
-    github: "https://github.com/yourgithub/weapon-detection",
+    status: "Prototype — demo presented at the AI House (Burkina Faso).",
     category: "Computer Vision"
   },
   {
@@ -55,30 +54,85 @@ export const projects = [
 ];
 
 export const certifications = [
-  "Cisco Networking Academy — Network Fundamentals; Network Support & Security; Introduction to Data Science; Introduction to ModernAI; Linux",
-  "NASA ARSET — Fundamentals of Remote Sensing",
-  "Alison — Basics of Fiber Optics",
-  "FreeCodeCamp — Responsive Web Design",
-  "Orange Digital Center — Intro to Machine Learning; Intro to Computer Vision"
+  {
+    id: 1,
+    issuer: "Cisco Networking Academy",
+    category: "Networking, AI & Security",
+    image: "/images/certifications/cisco.png",
+    certsList: [
+      "Network Fundamentals",
+      "Network Support & Security",
+      "Introduction to Data Science",
+      "Introduction to ModernAI",
+      "Linux Unhatched"
+    ]
+  },
+  {
+    id: 2,
+    issuer: "NASA ARSET",
+    category: "Remote Sensing",
+    image: "/images/certifications/nasa.png",
+    certsList: [
+      "Fundamentals of Remote Sensing"
+    ]
+  },
+  {
+    id: 3,
+    issuer: "Alison",
+    category: "Networking",
+    image: "/images/certifications/alison.png",
+    certsList: [
+      "Diploma in Fiber Optic Communications Technology"
+    ]
+  },
+  {
+    id: 4,
+    issuer: "FreeCodeCamp",
+    category: "Web Development",
+    image: "/images/certifications/freecodecamp.png",
+    certsList: [
+      "Responsive Web Design"
+    ]
+  },
+  {
+    id: 5,
+    issuer: "Orange Digital Center",
+    category: "AI & Computer Vision",
+    image: "/images/certifications/orange.png",
+    certsList: [
+      "Introduction to Machine Learning",
+      "Introduction to Computer Vision"
+    ]
+  }
 ];
 
 export const experience = [
   {
     title: "Winner — Hackathon \"Come to Code 6th edition\"",
-    organization: "Club Informatique IBAM",
-    note: "patronage Dr Drissa Sawadogo ,conseiller speciale du Président du Burkina Faso, Directeur General de la SOTRACO et en partenariat avec le Ministère de la santé et la CIL (Commission Informatique et des Libertés)."
+    organization: "Organized by IBAM Computer Club",
+    details: [
+      "Under the patronage of Dr. Drissa Sawadogo, Special Advisor to the President of Burkina Faso, Director General of SOTRACO",
+      "In partnership with the Ministry of Health",
+      "In partnership with the CIL (Commission on Information Technology and Liberties)"
+    ]
   },
   {
     title: "Ambassador",
-    organization: "École Supérieure des Techniques Avancées (ESTA), Ouagadougou"
+    organization: "Higher School of Advanced Technologies (ESTA), Ouagadougou in Burkina Faso"
   },
   {
     title: "Head of Communication & External Relations",
-    organization: "ESTA University Computer Club"
+    details: [
+      "ESTA Computer Science Club"
+    ]
   },
   {
-    title: "Member",
-    organization: "Google Developer Group (GDG), Internet Society, Association des Ingénieurs Informatiques du Burkina Faso"
+    title: "Member of :",
+    details: [
+      "Google Developer Group (GDG)",
+      "Internet Society",
+      "Burkina Faso Computer Engineering Association"
+    ]
   }
 ];
 
@@ -97,7 +151,7 @@ export const personalInfo = {
   name: "Wend-Panga Jedidja Eliezer TIONON",
   title: "Student — Networks & Telecommunications | Aspiring Data Scientist & AI Engineer",
   email: "eliezertionon88@gmail.com",
-  github: "https://github.com/yourgithub",
+  github: "https://github.com/Dida-cyber",
   cv: "Eliezer_TIONON_CV.pdf",
   attestations: "Attestations_Eliezer_TIONON.docx"
 };

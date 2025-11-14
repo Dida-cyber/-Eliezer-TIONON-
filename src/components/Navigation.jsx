@@ -54,7 +54,7 @@ const Navigation = () => {
               whileHover={{ scale: 1.05 }}
             >
               <span className="hidden sm:inline">Wend-Panga Jedidja Eliezer TIONON</span>
-              <span className="sm:hidden">E. TIONON</span>
+              <span className="sm:hidden">Wend-Panga Jedidja Eliezer TIONON</span>
             </motion.a>
           </div>
 

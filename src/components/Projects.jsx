@@ -37,7 +37,7 @@ const Projects = () => {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-primary to-purple-600 mx-auto rounded-full mb-4"></div>
           <p className="text-gray-600 text-lg md:text-xl max-w-2xl mx-auto">
-            Explore my work in AI, Data Science, and Networking - Innovative solutions that make a difference
+            Explore my work in AI, Data Science, and Networking.
           </p>
         </motion.div>
 

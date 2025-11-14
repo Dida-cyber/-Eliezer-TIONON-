@@ -51,13 +51,13 @@ const About = () => {
               variants={itemVariants}
             >
               <p className="text-lg md:text-xl leading-relaxed text-gray-700 font-light">
-                I am a <span className="font-semibold text-primary">second-year engineering student</span> in Networks & Telecommunications
-                at École Supérieure des Techniques Avancées (ESTA), Ouagadougou.
+                I am a <span className="font-semibold text-primary">second-year engineering student</span> in Networks and Telecommunications
+                at Higher School of Advanced Technology (ESTA), Ouagadougou, Burkina Faso.
               </p>
               <p className="text-lg md:text-xl leading-relaxed text-gray-700 font-light">
                 Passionate about <span className="font-semibold text-blue-600">Data Science, Machine Learning and Computer Vision</span>, I
-                build practical projects in AI applied to security and agriculture, and
-                have experience in networking, Linux and data processing.
+                develop practical projects in AI applied to security and agriculture. I also
+                have hands-on experience in networking, Linux and data processing.
               </p>
               <div className="p-6 bg-gradient-to-br from-primary/5 to-purple-500/5 rounded-2xl border border-primary/10">
                 <p className="text-lg leading-relaxed text-gray-700">
