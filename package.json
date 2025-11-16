@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://eliezer-tionon.vercel.app",
+  "homepage": ".",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
